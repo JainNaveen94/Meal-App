@@ -12,7 +12,7 @@ import HomeDetails from '../components/HomeDetails';
 import HomePlans from '../components/HomePlans';
 
 export default {
-    name: 'home',
+    name: 'Home',
     components: {
         HomeHero,
         HomeDetails,
