@@ -1,14 +1,21 @@
 <template>
-    <v-container fluid>
-        <v-layout>
-            <h1>Menu Comming Soon</h1>
-        </v-layout>
-    </v-container>
+    <div>
+        <home-plans></home-plans>
+        <meal-recipes></meal-recipes>
+    </div>
 </template>
 
 <script>
+
+import HomePlans from '../components/HomePlans';
+import MealRecipes from '../components/MealRecipes';
+
 export default {
-    name: 'Menu'
+    name: 'Menu',
+    components: {
+        HomePlans,
+        MealRecipes
+    }
 };
 </script>
 
